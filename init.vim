@@ -6,7 +6,9 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'raimondi/delimitMate'
 Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'tyrannicaltoucan/vim-quantum'
-Plug 'https://github.com/hkrdrm/vim-javascript.git'
+Plug 'mxw/vim-jsx'
+Plug 'pangloss/vim-javascript'
+"Plug 'https://github.com/hkrdrm/vim-javascript.git'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'tomasr/molokai'
 Plug 'baines/vim-colorscheme-thaumaturge'
@@ -47,6 +49,7 @@ set relativenumber
 set noshowcmd
 set lazyredraw
 set ttyfast
+set mouse=nv
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
