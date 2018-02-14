@@ -8,8 +8,9 @@ Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'tyrannicaltoucan/vim-quantum'
 Plug 'mxw/vim-jsx'
 Plug 'pangloss/vim-javascript'
-"Plug 'https://github.com/hkrdrm/vim-javascript.git'
 Plug 'jelera/vim-javascript-syntax'
+Plug 'vim-ruby/vim-ruby'
+Plug 'hail2u/vim-css3-syntax'
 Plug 'tomasr/molokai'
 Plug 'baines/vim-colorscheme-thaumaturge'
 Plug 'hzchirs/vim-material'
@@ -25,7 +26,10 @@ Plug 'itchyny/lightline.vim'
 Plug 'mhinz/vim-startify'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'JulesWang/css.vim'
+Plug 'ervandew/supertab'
 call plug#end()
+
 syntax enable
 set background=dark
 colorscheme one
@@ -37,6 +41,7 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 set termguicolors
 set nowrap
 let g:airline_powerline_fonts = 1
+let NERDTreeShowHidden=1
 set encoding=utf8
 set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
 set laststatus=2
