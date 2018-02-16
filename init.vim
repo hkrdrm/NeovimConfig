@@ -28,6 +28,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'JulesWang/css.vim'
 Plug 'ervandew/supertab'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 syntax enable
@@ -62,3 +63,4 @@ nnoremap <C-l> <C-w>l
 if has('mouse_sgr')
   set ttymouse=sgr
 endif
+set updatetime=100
