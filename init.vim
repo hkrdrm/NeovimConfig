@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+Plug 'Yggdroot/indentLine'
 Plug 'tpope/vim-flagship'
 Plug 'Shougo/vimfiler.vim'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
@@ -28,7 +29,6 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'JulesWang/css.vim'
 Plug 'ervandew/supertab'
-Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 syntax enable
@@ -36,6 +36,8 @@ set background=dark
 colorscheme one
 highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
+let g:indentLine_char = '┆'
+let g:indentLine_color_gui = '#3e4654'
 let g:airline_theme='one'
 let g:jsx_ext_required = 1
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
