@@ -29,6 +29,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'JulesWang/css.vim'
 Plug 'ervandew/supertab'
+Plug 'tpope/vim-dotenv'
 call plug#end()
 
 syntax enable
@@ -42,6 +43,7 @@ let g:airline_theme='one'
 let g:jsx_ext_required = 1
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 set termguicolors
+set conceallevel=0
 set nowrap
 let g:airline_powerline_fonts = 1
 let NERDTreeShowHidden=1
