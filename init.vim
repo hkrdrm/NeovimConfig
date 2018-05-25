@@ -8,9 +8,11 @@ Plug 'raimondi/delimitMate'
 Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'tyrannicaltoucan/vim-quantum'
 Plug 'mxw/vim-jsx'
+Plug 'tpope/vim-fugitive'
 Plug 'pangloss/vim-javascript'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'vim-ruby/vim-ruby'
+Plug 'cakebaker/scss-syntax.vim'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'tomasr/molokai'
 Plug 'baines/vim-colorscheme-thaumaturge'
@@ -32,6 +34,7 @@ Plug 'ervandew/supertab'
 Plug 'tpope/vim-dotenv'
 call plug#end()
 
+map <silent> <C-n> :NERDTreeToggle<CR>
 syntax enable
 set background=dark
 colorscheme one
