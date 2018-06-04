@@ -32,6 +32,7 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'JulesWang/css.vim'
 Plug 'ervandew/supertab'
 Plug 'tpope/vim-dotenv'
+Plug 'elzr/vim-json'
 call plug#end()
 
 map <silent> <C-n> :NERDTreeToggle<CR>
@@ -46,7 +47,7 @@ let g:airline_theme='one'
 let g:jsx_ext_required = 1
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 set termguicolors
-set conceallevel=0
+let g:vim_json_syntax_conceal = 0
 set nowrap
 let g:airline_powerline_fonts = 1
 let NERDTreeShowHidden=1
@@ -72,9 +73,3 @@ if has('mouse_sgr')
 endif
 set updatetime=100
 :set number relativenumber
-
-:augroup numbertoggle
-:  autocmd!
-:  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
-:  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
-:augroup END
