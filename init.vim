@@ -11,8 +11,8 @@ Plug 'mxw/vim-jsx'
 Plug 'tpope/vim-fugitive'
 Plug 'pangloss/vim-javascript'
 Plug 'jelera/vim-javascript-syntax'
-Plug 'vim-ruby/vim-ruby'
 Plug 'cakebaker/scss-syntax.vim'
+Plug 'sheerun/vim-polyglot'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'tomasr/molokai'
 Plug 'baines/vim-colorscheme-thaumaturge'
@@ -72,4 +72,3 @@ if has('mouse_sgr')
   set ttymouse=sgr
 endif
 set updatetime=100
-:set number relativenumber
